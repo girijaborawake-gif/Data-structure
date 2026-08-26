@@ -1,0 +1,37 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+int id1,id2,id3;
+string title1,title2,title3;
+cout<<"Enter id1:";
+cin>>id1;
+cin.ignore();
+
+cout<<"Enter title of book 1:";
+getline(cin,title1);
+
+cout<<"Enter id2:";
+cin>>id2;
+cin.ignore();
+
+cout<<"Enter title of book 2:";
+getline(cin,title2);
+
+cout<<"Enter id3:";
+cin>>id3;
+cin.ignore();
+
+cout<<"Enter title of book 3:";
+getline(cin,title3);
+
+cout<<"\n====book information====";
+cout<<"\n..Enter id1:"<<id1;
+cout<<"\n..Enter title of book 1:"<<title1;
+cout<<"\n..Enter id2:"<<id2;
+cout<<"\n..Enter title of book 2:"<<title2;
+cout<<"\n..Enter id3:"<<id3;
+cout<<"\n..Enter title of book 3:"<<title3;
+return 0;
+}
