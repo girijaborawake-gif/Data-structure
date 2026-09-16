@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int rollno[5];
+    int SearchId;
+
+    cout << "Enter 5 rollno.:\n";
+
+    for (int i = 0; i < 5; i++)
+    {
+        cin >> rollno[i];
+    }
+
+    cout << "\nEnter roll no to search: ";
+    cin >> SearchId;
+
+    for (int i = 0; i < 5; i++)
+    {
+        if (rollno[i] == SearchId)
+        {
+            cout << "found";
+            return 0;
+        }
+    }
+    {
+        cout << "Not found";
+    }
+
+    return 0;
+}
